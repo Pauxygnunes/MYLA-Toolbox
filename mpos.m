@@ -1,22 +1,20 @@
 function mp = mpos(part)
-% Returns the resized partition positively in relation to the given
-% partition.
-%
+% Description
+%   The function mpos returns the partition(s) with resizing (m) relation
+%   to the input partition.
 % Usage:
 %       mpos (partition in vector format)
 % Example:
 %       mpos([2 3])
-% ans =
-% 
-%      2     4
-%      3     3
-% 
-% Created in 2014 under MATLAB 2012 (Windows)
-%
-% © Part of Partitional Young Lattice Analysis Toolbox - PYLA Toolbox,
-% Copyright © 2024 Pauxy Gentil Nunes Filho, Daniel Moreira
-% PArtiMus, and MusMat Research Groups - PPGM-UFRJ
-% See License.txt
+%           ans =
+%                   2     4
+%                   3     3
+% Info:
+%   Created in 2014 under MATLAB 2012 (Windows)
+%   Â© Part of Partitional Young Lattice Analysis Toolbox - PYLA Toolbox,
+%   Copyright Â© 2024 Pauxy Gentil Nunes Filho, Daniel Moreira
+%   PArtiMus, and MusMat Research Groups - PPGM-UFRJ
+%   See License.txt
 % ========== Inicialization
 tab = [];
 part(part==0) = [];
