@@ -1,7 +1,8 @@
 function mnet = mnet(n)
 % Description
 %   The function mnet generates the mnet network (based on the relation of
-%   resizing) for a given density-number. Plots the network on the partitiogram.
+%   resizing) for a given density-number and plots the network on the
+%   partitiogram.
 % Usage:
 %   mnet(density-number)
 % Example:
