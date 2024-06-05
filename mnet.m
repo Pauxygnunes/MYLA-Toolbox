@@ -15,7 +15,7 @@ function mnet = mnet(n)
 %   parts. For instance, (1,1,2) and (1,1,3).
 % Info:
 %   Created in April 2024 under MATLAB R2021b (Windows)
-%   © Part of MPYL - Musical Partitional Young Lattice Toolbox, 
+%   © Part of MPYLA - Musical Partitional Young Lattice Toolbox Analysis, 
 %   Copyright ©2024, Pauxy Gentil Nunes Filho (pauxy.contact@gmail.com)
 %   See License.txt
 % ========== Initialization
@@ -25,7 +25,7 @@ for f = 1:n
     lista1 = partitions(f);
     for g = 1:size(lista1,1)
         part1 = lista1(g,:);
-        part1(part1==0)=[];
+        part1(part1 == 0)=[];
         % Relation calculus
         lista2 = mpos(part1);
         for h = 1:size(lista2,1)
