@@ -9,7 +9,7 @@ function trel = trel(dn)
 % Example: 
 %     mrel(4)
 % ans =
-%   7×3 table
+%   7Ã—3 table
 %     p1n    p2n     rel 
 %     ___    ___    _____
 % 
@@ -24,8 +24,8 @@ function trel = trel(dn)
 % Resizing is one of the relations inside the Partitional Young Lattice
 % (see Gentil-Nunes, 2009 for more information)
 % Created in 2004, january, under MATLAB 6.0 (PC)
-% © Part of PARSEMAT - Parseme Toolbox Software Package, 
-% Copyright © 2003, 2005, 2007, 2009, 2024, Pauxy Gentil Nunes Filho
+% Â© Part of PARSEMAT - Parseme Toolbox Software Package, 
+% Copyright Â© 2003, 2005, 2007, 2009, 2024, Pauxy Gentil Nunes Filho
 % See License.txt
 % ========== Initialization
 P1 = ptab(dn);
@@ -63,5 +63,3 @@ p2n = tab(:,2);
 rel = repmat({'t'},size(tab,1),1);
 trel = table(p1n, p2n, rel);
 end
-
-
