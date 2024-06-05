@@ -10,8 +10,8 @@ function vp = vpos(part)
 % 
 %           1     1     2
 % Created in 2014 under MATLAB 2012 (Windows)
-% © Part of Partitional Young Lattice Analysis Toolbox - PYLA Toolbox,
-% Copyright © 2024 Pauxy Gentil Nunes Filho, Daniel Moreira
+% Â© Part of Musical Partitional Young Lattice Analysis Toolbox - MPYLA Toolbox,
+% Copyright Â© 2024 Pauxy Gentil Nunes Filho, Daniel Moreira
 % PArtiMus, and MusMat Research Groups - PPGM-UFRJ
 % See License.txt
 % ==========Initialize
