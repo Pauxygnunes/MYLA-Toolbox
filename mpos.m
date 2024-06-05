@@ -11,13 +11,13 @@ function mp = mpos(part)
 %                   3     3
 % Info:
 %   Created in 2014 under MATLAB 2012 (Windows)
-%   © Part of Partitional Young Lattice Analysis Toolbox - PYLA Toolbox,
+%   © Part of Musical Partitional Young Lattice Analysis Toolbox - MPYLA Toolbox,
 %   Copyright © 2024 Pauxy Gentil Nunes Filho, Daniel Moreira
 %   PArtiMus, and MusMat Research Groups - PPGM-UFRJ
 %   See License.txt
 % ========== Inicialization
 tab = [];
-part(part==0) = [];
+part(part == 0) = [];
 % ========== Number of lines and columns
 ncols = size(part,2);
 nlin = size(part,1);
