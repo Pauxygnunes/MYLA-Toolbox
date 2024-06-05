@@ -18,7 +18,7 @@ function ptab = ptab(n)
 %      6     {'3'  }
 % 
 % Created in 2024 under MATLAB 2021b (Windows)
-% © Part of Partitional Young Lattice Analysis Toolbox - PYLA Toolbox,
+% © Part of Musical Partitional Young Lattice Analysis Toolbox - MPYLA Toolbox,
 % Copyright © 2024 Pauxy Gentil Nunes Filho and Daniel Moreira
 % PArtiMus, and MusMat Research Groups - PPGM-UFRJ
 % See License.txt
